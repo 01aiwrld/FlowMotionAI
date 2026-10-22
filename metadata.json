@@ -1,0 +1,6 @@
+{
+  "name": "FlowMotion AI - Unlimited Video & Image Studio",
+  "description": "Unlimited free AI image and video generator with Google Flow inspired interface. Supports Seedance 2.5, MiniMax, Kling, 8-60s cinematic anime & landscape video generation, up to 5 uploaded photos with motion instructions, auto-captions in Tagalog and all languages, auto-dubbing, audio sound effects, and ChatGPT-style Flow Copilot.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

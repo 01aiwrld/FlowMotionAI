@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="flowGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6366f1" />
+      <stop offset="50%" stop-color="#8b5cf6" />
+      <stop offset="100%" stop-color="#ec4899" />
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#8b5cf6" stop-opacity="0.5" />
+      <stop offset="100%" stop-color="#090a0f" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+  <rect width="512" height="512" rx="128" fill="#090a0f" />
+  <circle cx="256" cy="256" r="200" fill="url(#glow)" />
+  <!-- Google Flow styled flowing ribbons -->
+  <path d="M 120 256 C 160 160, 220 160, 256 256 C 292 352, 352 352, 392 256" fill="none" stroke="url(#flowGrad)" stroke-width="36" stroke-linecap="round"/>
+  <circle cx="120" cy="256" r="20" fill="#6366f1" />
+  <circle cx="256" cy="256" r="28" fill="#a855f7" />
+  <circle cx="392" cy="256" r="20" fill="#ec4899" />
+  <polygon points="245,238 275,256 245,274" fill="#ffffff" />
+</svg>

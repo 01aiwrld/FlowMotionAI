@@ -1,0 +1,26 @@
+{
+  "id": "/",
+  "name": "FlowMotion AI Studio",
+  "short_name": "FlowMotion",
+  "description": "Unlimited free AI video and image generator inspired by Google Flow with auto captions, dubbing, and Seedance/Kling models.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#08090d",
+  "theme_color": "#090a0f",
+  "icons": [
+    {
+      "src": "/icon-192.svg",
+      "sizes": "192x192",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon-512.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
